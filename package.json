@@ -1,10 +1,17 @@
 {
   "name": "nodebb-theme-hub",
   "version": "0.0.1",
-  "description": "Enter a description here",
+  "description": "Hub theme",
   "main": "theme.less",
   "keywords": [
 
   ],
+  "nbbpm": {
+    "compatibility": "^1.11.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/george-i/nodebb-theme-hub.git"
+  },
   "license": "MIT"
 }
