@@ -12,6 +12,7 @@
 	],
 	"scripts": [
 		"lib/oxide.js",
+		"lib/hub.js",
 		"lib/modules/nprogress.js",
 		"lib/modules/autohidingnavbar.min.js",
 		"lib/modules/quickreply.js"

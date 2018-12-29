@@ -94,6 +94,7 @@ library.getThemeConfig = function(config, callback) {
 		config.hideCategoryLastPost = settings.hideCategoryLastPost === 'on';
 		config.enableQuickReply = settings.enableQuickReply === 'on';
 		config.enableShowTid = settings.enableShowTid === 'on';
+		config.maximumTagLength = 50;
 	});
 
 	callback(false, config);

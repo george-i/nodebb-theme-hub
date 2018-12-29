@@ -14,6 +14,12 @@
 					{../descriptionParsed}
 				</div>
 				<!-- ENDIF ../descriptionParsed -->
+				<!-- IF ../tagWhitelist -->
+				<div class="white-list">
+					<span>Are nevoie de specialisti in: </span>
+					<span style="color: {../bgColor}">{../tagWhitelist}</span>
+				</div>
+				<!-- ENDIF ../tagWhitelist -->
 			</div>
 			<div class="col-md-2 hidden-sm hidden-xs stats contentItem">
 				<span class="{../unread-class} human-readable-number" title="{../totalTopicCount}">{../totalTopicCount}</span><br />
