@@ -6,7 +6,7 @@
 </div>
 <div class="row">
 	<div class="<!-- IF widgets.sidebar.length -->col-lg-9 col-sm-12<!-- ELSE -->col-lg-12<!-- ENDIF widgets.sidebar.length -->">
-		<h6 class="categories-title text-center">Proiecte & campanii</h6>
+		<h6 class="categories-title text-center">Produse & campanii</h6>
 		<ul class="categories" itemscope itemtype="http://www.schema.org/ItemList">
 			<!-- BEGIN categories -->
 			<!-- IMPORT partials/categories/item.tpl -->

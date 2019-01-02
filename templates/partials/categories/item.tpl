@@ -17,7 +17,11 @@
 				<!-- IF ../tagWhitelist -->
 				<div class="white-list">
 					<span>Are nevoie de specialisti in: </span>
-					<span style="color: {../bgColor}">{../tagWhitelist}</span>
+					<span style="color: {../bgColor}">
+						<!-- BEGIN tagWhitelist -->
+						<span>{@value}<!-- IF !@last -->, <!-- ENDIF !@last --></span>
+						<!-- END tagWhitelist -->
+					</span>
 				</div>
 				<!-- ENDIF ../tagWhitelist -->
 			</div>

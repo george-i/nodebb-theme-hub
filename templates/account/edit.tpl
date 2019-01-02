@@ -99,21 +99,23 @@
 
 						<!-- IF allowAboutMe -->
 						<div class="control-group">
-							<label class="control-label" for="inputAboutMe">[[user:aboutme]]</label> <small><label id="aboutMeCharCountLeft"></label></small>
+							<label class="control-label" for="inputAboutMe">Despre mine</label> <small><label id="aboutMeCharCountLeft"></label></small>
 							<div class="controls">
 								<textarea class="form-control" id="inputAboutMe" rows="5">{aboutme}</textarea>
 							</div>
 						</div>
 						<!-- ENDIF allowAboutMe -->
 
+						<!-- IMPORT partials/account/custom_fields_flex.tpl -->
+
 						<!-- IF allowSignature -->
 						<!-- IF !disableSignatures -->
-						<div class="control-group">
+						<!--<div class="control-group">
 							<label class="control-label" for="inputSignature">[[user:signature]]</label> <small><label id="signatureCharCountLeft"></label></small>
 							<div class="controls">
 								<textarea class="form-control" id="inputSignature" rows="5">{signature}</textarea>
 							</div>
-						</div>
+						</div>-->
 						<!-- ENDIF !disableSignatures -->
 						<!-- ENDIF allowSignature -->
 
