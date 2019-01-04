@@ -17,11 +17,9 @@
 				<!-- IF ../tagWhitelist -->
 				<div class="white-list">
 					<span>Are nevoie de specialisti in: </span>
-					<span style="color: {../bgColor}">
-						<!-- BEGIN tagWhitelist -->
-						<span>{@value}<!-- IF !@last -->, <!-- ENDIF !@last --></span>
-						<!-- END tagWhitelist -->
-					</span>
+					<!-- BEGIN tagWhitelist -->
+					<a style="color: {../../bgColor};background: {../../bgColor}10;padding: 4px;border-radius: 3px;" href="tags/{@value}" title="{@value}">{@value}</a><!-- IF !@last -->, <!-- ENDIF !@last -->
+					<!-- END tagWhitelist -->
 				</div>
 				<!-- ENDIF ../tagWhitelist -->
 			</div>

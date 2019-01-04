@@ -106,8 +106,6 @@
 						</div>
 						<!-- ENDIF allowAboutMe -->
 
-						<!-- IMPORT partials/account/custom_fields_flex.tpl -->
-
 						<!-- IF allowSignature -->
 						<!-- IF !disableSignatures -->
 						<!--<div class="control-group">

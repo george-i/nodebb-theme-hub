@@ -3,6 +3,8 @@
 <div class="account">
 	<!-- IMPORT partials/account/header.tpl -->
 
+	<!-- IMPORT partials/account/custom_fields_flex.tpl -->
+
 			<h1 class="section-title">[[pages:account/posts, {username}]]</h1>
 
 			<div class="topic">
