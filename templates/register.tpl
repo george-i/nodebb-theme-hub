@@ -39,13 +39,13 @@
 						<span class="register-feedback" id="password-confirm-notify"></span>
 					</div>
 				</div>
-				<div class="form-group">
+				<!--<div class="form-group">
 					<label for="hubcode" class="col-lg-4 control-label">Hubcode</label>
 					<div class="col-lg-8">
 						<input class="form-control" type="text" placeholder="Introdu hubcode" name="hubcode" id="hubcode" />
 						<span class="help-block">Primit via email</span>
 					</div>
-				</div>
+				</div>-->
 
 				<!-- BEGIN regFormEntry -->
 				<div class="form-group">

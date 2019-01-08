@@ -95,7 +95,7 @@
 
 		<div class="profile-card">
 			<h2 class="card-title">
-				[[oxide:card-information]] 
+				Informatii despre
 				<!-- IF fullname -->{fullname}<!-- ELSE -->{username}<!-- ENDIF fullname -->
 			</h2>
 
@@ -110,26 +110,20 @@
 			</div>
 			<!-- ENDIF selectedGroup.length -->
 
-			<div class="data-item">
-				<div class="data-header"><span>[[user:joined]]</span></div>
-				<strong class="timeago" title="{joindateISO}"></strong>
-			</div>
-			<div class="data-item">
-				<div class="data-header"><span>[[user:lastonline]]</span></div>
-				<strong class="timeago" title="{lastonlineISO}"></strong>
-			</div>
-			<!-- IF email -->
-			<div class="data-item">
-				<div class="data-header"><span>[[user:email]]</span></div>
-				<strong><i class="fa fa-eye-slash {emailClass}" title="[[user:email_hidden]]"></i> {email}</strong>
-			</div>
-			<!-- ENDIF email -->
+			<!-- IMPORT partials/account/custom_fields_flex.tpl -->
+
 			<!-- IF websiteName -->
 			<div class="data-item">
 				<div class="data-header"><span>[[user:website]]</span></div>
 				<strong><a href="{websiteLink}" rel="nofollow noopener noreferrer">{websiteName}</a></strong>
 			</div>
 			<!-- ENDIF websiteName -->
+			<!-- IF email -->
+			<div class="data-item">
+				<div class="data-header"><span>[[user:email]]</span></div>
+				<strong><i class="fa fa-eye-slash {emailClass}" title="[[user:email_hidden]]"></i> {email}</strong>
+			</div>
+			<!-- ENDIF email -->
 			<!-- IF location -->
 			<div class="data-item">
 				<div class="data-header"><span>[[user:location]]</span></div>
@@ -142,12 +136,22 @@
 				<strong>{age}</strong>
 			</div>
 			<!-- ENDIF age -->
+
+			<div class="data-item">
+				<div class="data-header"><span>[[user:joined]]</span></div>
+				<strong class="timeago" title="{joindateISO}"></strong>
+			</div>
+			<div class="data-item">
+				<div class="data-header"><span>[[user:lastonline]]</span></div>
+				<strong class="timeago" title="{lastonlineISO}"></strong>
+			</div>
+
 		</div>
 
 		<!-- IF aboutme -->
 		<div class="profile-card">
 			<h2 class="card-title">
-				[[oxide:aboutme]]
+				Despre mine
 			</h2>
 
 			<div class="data-item">

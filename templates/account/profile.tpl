@@ -3,23 +3,21 @@
 <div class="account">
 	<!-- IMPORT partials/account/header.tpl -->
 
-	<!-- IMPORT partials/account/custom_fields_flex.tpl -->
+	<h1 class="section-title">[[pages:account/posts, {username}]]</h1>
 
-			<h1 class="section-title">[[pages:account/posts, {username}]]</h1>
+	<div class="topic">
+		<!-- IF !posts.length -->
+		<div class="alert alert-warning">[[user:has_no_posts]]</div>
+		<!-- ENDIF !posts.length -->
 
-			<div class="topic">
-				<!-- IF !posts.length -->
-				<div class="alert alert-warning">[[user:has_no_posts]]</div>
-				<!-- ENDIF !posts.length -->
+		<!-- IMPORT partials/posts_list.tpl -->
 
-				<!-- IMPORT partials/posts_list.tpl -->
-
-				<!-- IF config.usePagination -->
-					<!-- IMPORT partials/paginator.tpl -->
-				<!-- ENDIF config.usePagination -->
-			</div>
-		</div>
+		<!-- IF config.usePagination -->
+		<!-- IMPORT partials/paginator.tpl -->
+		<!-- ENDIF config.usePagination -->
 	</div>
+</div>
+</div>
 
-	<div id="user-action-alert" class="alert alert-success hide"></div>
+<div id="user-action-alert" class="alert alert-success hide"></div>
 </div>

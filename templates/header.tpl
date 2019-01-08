@@ -3,9 +3,25 @@
 <head>
 	<title>{browserTitle}</title>
 	<!-- BEGIN metaTags -->{function.buildMetaTag}<!-- END metaTags -->
-	<meta name="theme-color" content="#fffcf1" />
+
+	<meta name="msapplication-TileColor" content="#fffcf1">
+	<meta name="msapplication-TileImage" content="https://s3.eu-central-1.amazonaws.com/ms-icon-144x144.png">
+	<meta name="theme-color" content="#fffcf1">
 	<link rel="stylesheet" type="text/css" href="{relative_path}/assets/client<!-- IF bootswatchSkin -->-{bootswatchSkin}<!-- END -->.css?{config.cache-buster}" />
 	<!-- BEGIN linkTags -->{function.buildLinkTag}<!-- END linkTags -->
+	<link rel="apple-touch-icon" sizes="57x57" href="https://s3.eu-central-1.amazonaws.com/habitathubapple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="https://s3.eu-central-1.amazonaws.com/habitathubapple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="https://s3.eu-central-1.amazonaws.com/habitathubapple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="https://s3.eu-central-1.amazonaws.com/habitathubapple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="https://s3.eu-central-1.amazonaws.com/habitathubapple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="https://s3.eu-central-1.amazonaws.com/habitathubapple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="https://s3.eu-central-1.amazonaws.com/habitathubapple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="https://s3.eu-central-1.amazonaws.com/habitathubapple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="https://s3.eu-central-1.amazonaws.com/habitathubapple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="https://s3.eu-central-1.amazonaws.com/habitathubandroid-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://s3.eu-central-1.amazonaws.com/habitathubfavicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="https://s3.eu-central-1.amazonaws.com/habitathubfavicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://s3.eu-central-1.amazonaws.com/habitathubfavicon-16x16.png">
 
 	<script>
 		var RELATIVE_PATH = "{relative_path}";
