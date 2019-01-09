@@ -15,6 +15,11 @@
 			<!-- ENDIF !banned -->
 		</a>
 
+		<div class="row">
+			<!--Founder @ Citizen First-->
+			<!-- IMPORT partials/account/custom_fields_flex.tpl -->
+		</div>
+
 		<div class="row usercard-info">
 			<div class="col-xs-4">
 				<small>[[global:posts]]</small>
