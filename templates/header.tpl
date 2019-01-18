@@ -7,6 +7,7 @@
 	<meta name="msapplication-TileColor" content="#fffcf1">
 	<meta name="msapplication-TileImage" content="https://s3.eu-central-1.amazonaws.com/ms-icon-144x144.png">
 	<meta name="theme-color" content="#fffcf1">
+	<meta property="og:image" content="https://s3.eu-central-1.amazonaws.com/habitathub/028f6e63-c5b1-4b90-a01e-70fc282da25a.jpg" />
 	<link rel="stylesheet" type="text/css" href="{relative_path}/assets/client<!-- IF bootswatchSkin -->-{bootswatchSkin}<!-- END -->.css?{config.cache-buster}" />
 	<!-- BEGIN linkTags -->{function.buildLinkTag}<!-- END linkTags -->
 	<link rel="apple-touch-icon" sizes="57x57" href="https://s3.eu-central-1.amazonaws.com/habitathub/apple-icon-57x57.png">
