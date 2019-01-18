@@ -3,9 +3,9 @@
 <head>
 	<title>{browserTitle}</title>
 
-	<meta property="og:image" content="https://s3.eu-central-1.amazonaws.com/habitathub/028f6e63-c5b1-4b90-a01e-70fc282da25a.jpg" />
+	<meta property="og:image" content="https://s3.eu-central-1.amazonaws.com/habitathub/cover-og.jpg" />
 	<meta property="og:image:width" content="1200" />
-	<meta property="og:image:height" content="675" />
+	<meta property="og:image:height" content="630" />
 	<meta name="theme-color" content="#fffcf1">
 	<!-- BEGIN metaTags -->{function.buildMetaTag}<!-- END metaTags -->
 
